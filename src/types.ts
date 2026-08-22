@@ -58,7 +58,7 @@ export interface LeaveRequest {
   employeeName: string;
   avatar: string;
   empCode: string;
-  type: 'Paid Leave' | 'Sick Leave' | 'Annual Leave' | 'Bereavement' | 'Maternity' | 'Unpaid';
+  type: 'Annual Leave' | 'Sick Leave' | 'Maternity Leave' | 'Paternity Leave' | 'Unpaid Leave';
   dates: string;
   duration: string;
   reason: string;
