@@ -1,0 +1,6 @@
+{
+  "name": "Nexora HR",
+  "description": "Workforce Intelligence platform with attendance pulse, AI leave assistant, automation center, executive analytics, and employee management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

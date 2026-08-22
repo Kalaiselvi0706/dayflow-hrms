@@ -216,9 +216,18 @@ export const LiveAttendanceScreen: React.FC = () => {
                 <tr key={log.id} className="hover:bg-[#282a30]/50 transition-colors">
                   <td className="py-3.5 pr-4">
                     <div className="flex items-center gap-3">
-                      <div className="w-8 h-8 rounded-full bg-[#8083ff]/20 text-[#c0c1ff] flex items-center justify-center font-bold">
-                        {log.avatar}
-                      </div>
+                      {log.avatar && log.avatar.startsWith('http') ? (
+                        <img
+                          src={log.avatar}
+                          alt={log.employeeName}
+                          className="w-8 h-8 rounded-full object-cover border border-[#8083ff]/30 animate-pulse-ring"
+                          referrerPolicy="no-referrer"
+                        />
+                      ) : (
+                        <div className="w-8 h-8 rounded-full bg-[#8083ff]/20 text-[#c0c1ff] flex items-center justify-center font-bold">
+                          {log.employeeName ? log.employeeName.charAt(0) : 'E'}
+                        </div>
+                      )}
                       <span className="font-semibold text-white">{log.employeeName}</span>
                     </div>
                   </td>

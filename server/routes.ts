@@ -731,7 +731,7 @@ router.post('/ai/chat', async (req, res) => {
   try {
     const ai = new GoogleGenAI({ apiKey });
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
+      model: 'gemini-1.5-flash',
       contents: message,
       config: {
         systemInstruction: 'You are the Nexora AI Assistant. You assist with HR queries, employee directories, leaves, and analytics context.'

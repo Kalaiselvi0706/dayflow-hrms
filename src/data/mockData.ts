@@ -242,7 +242,7 @@ export const INITIAL_LEAVE_REQUESTS: LeaveRequest[] = [
     employeeName: 'Alex Rivers',
     avatar: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCP8o7U2NAsORhgsoh0x65l-LbwVCNJO0C9qeo0MuqiGigJQIKSSdQ6Y6X5pd3wSl6DDXEMeQ_5E9OtrB-3EHcF664tbqDKEEsmqOPEKXbEZVDCHe-otSbqCXH7GtE7XDgwg7PS7_8NHHdFz7CHWbyLKNJD0whGV10ri_AJmWN9HOhiE2_nq_Ahebo7xWah9TiWr6DQyHU2CWu0d2OqZdfMApwFvFZC7qjgDZ_mHDkAGmcYtRUsi5KWiw',
     empCode: 'EMP-2022-041',
-    type: 'Bereavement',
+    type: 'Unpaid Leave',
     dates: 'Aug 14 - Aug 15',
     duration: '2 Days',
     reason: 'Family bereavement',
